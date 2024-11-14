@@ -1,0 +1,163 @@
+/*================================================================================
+	Item Name: Materialize - Material Design Admin Template
+	Version: 5.0
+	Author: PIXINVENT
+	Author URL: https://themeforest.net/user/pixinvent/portfolio
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN CSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+.text-end { text-align: end;}
+.text-start { text-align: start;}
+.text-center { text-align: center;}
+
+.d-flex{ display: flex;}
+
+
+.remove-button.badge.gradient-45deg-light-blue-cyan { 
+  color: #fff; 
+  padding: 5px;
+  border: 0px solid #fff; 
+  font-size: 0.8rem;}
+
+.itemcountSec {
+    display: flex;
+}
+.itemCountBtn {
+    width: 35px !important;
+    border-radius: 0px !important;
+    text-align: center !important;
+    height: 35px !important;
+    box-shadow: none !important;
+}
+.itemCountBtn i {
+    display: block !important;
+    width: 100% !important;
+    font-size: 16px !important;
+    line-height: 35px !important;
+}
+.itemCount {
+    border: none !important;
+    text-align: center !important;
+    width: 35px !important;
+    height: 35px !important;
+    font-size: 16px !important;
+    background-color: #efefef !important;
+    box-shadow: none !important;
+}
+
+.staffList .saveh{
+    position: absolute;
+    z-index: 9999999;
+    cursor: pointer;
+    display: none;
+    width: 100%;
+    height: 100%;
+    margin-left: -5px;
+    top: 0px;
+    align-items: center;
+    justify-content: center;
+  }
+
+.staffList .saveEdit:hover .saveh{
+  display: flex;
+}
+  .staffList .saveEdit{
+    position: relative;
+  }
+ .staffList td, .staffList th {
+    text-align: center;
+  }
+
+
+  .dashboard-card-row .card  { min-height: 162px !important;}
+
+  .card.recent-buyers-card .card-content h4 { margin-bottom:15px}
+.dataTables_wrapper { overflow-y:hidden;}
+
+.sidenav .collapsible {
+  margin: 0;
+  padding-left: 20px;
+}
+#receivePaymentBtn{
+  background-color:#22bb7a;
+}
+.payment-history-card  { padding: 30px;}
+
+
+.payment-history-card .dataTables_wrapper {
+  overflow-y: hidden;
+  padding: 26px 0px;
+}
+.payment-history-card .dataTables_wrapper table { width: 100% !important; }
+ .buttons-excel { background-color: #00bcd4 !important; color: #fff !important;     border: 0px !important;}
+  .buttons-pdf { background-color: #ff5a92 !important; color: #fff !important;     border: 0px !important;}
+.dataTables_length label { line-height: 31px;margin-left: 20px;}
+.payment-history-card  .dataTables_wrapper .dataTables_paginate .paginate_button.current { background: #3f51b5;
+  border: 1px solid #3f51b5;
+  color: #fff !important;
+  border-radius: 6px;
+  box-shadow: 0px 0px 8px 0px #3f51b5;}
+
+  .nav-collapsed.sidenav-main { width: 70px !important;}
+  .text-white { color: #fff; }
+  .dashboard {
+    font-family: system-ui;
+    font-weight: 700;
+    line-height: 1.1;
+    color: white;
+}
+h5.dashboard {
+  font-size: 30px;
+}
+
+.section-data-tables .card {
+  min-height: 162px !important;
+}
+
+
+.align-items-center { align-items: center;}
+.justify-content-between{ justify-content: space-between;}
+
+#card-stats .card .card-content {  padding: 24px; }
+
+@media  (max-width:1600px) {
+    input[type=text]:not(.browser-default) { font-size:12px !important }
+}
+
+@media  (max-width:1400px) {
+.card.recent-buyers-card { height: 400px !important;}
+#myPieChart { height: 350px !important; width: 350px !important;}
+.dashboard-card-row .card  { min-height: 182px !important;}
+.dashboard-card-row .card  .card-content h6{ font-size: 12px; font-weight: 500 !important;}
+}
+
+@media  (max-width:1300px) {
+.dashboard-card-row .card  { min-height: 182px !important;}
+#main .section-data-tables .dataTables_wrapper table.dataTable tbody tr td:before, #main .section-data-tables .dataTables_wrapper table.dataTable tbody tr th:before
+{ top: 18px !important;left: 10px;}
+
+
+.sidenav-main { width: 225px;}
+.row.dashboard-card-row  { margin: 0px !important;}
+.row.dashboard-card-row .xl3 { width: 50%;}
+#main {
+  padding-left: 230px;
+}
+#card-stats .row .xl3 { width: 50%;}
+.modal { width: 90%;}
+.schedules-daterangepicker  { height: 180px; overflow: scroll; }
+}
+@media  (max-width:767px) {
+  #main{  padding-left: 0px !important;}
+  section.timeline-outer {
+    width: calc(100% - 0px) !important;
+}
+.timeline .event::before{  top: -8px !important;left: 23px!important;}
+.timeline .event:after { left: -26px;height: 6px;width: 6px;}
+}
+#profileCropModal .modal-content  { height: 500px !important; overflow: scroll;}
+.cropper-bg {width: 100% !important;}
+.document_box_img img {padding:2px;border:1px solid #ddd;border-radius: 5px; }

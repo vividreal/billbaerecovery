@@ -1,0 +1,106 @@
+.map-box {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 2rem 0;
+}
+
+.map-box .map-box-left {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding-right: 3rem;
+}
+
+.map-box .map-box-left .acordion-tab input {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+
+.map-box .map-box-left .acordion-tab .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.map-box .map-box-left .acordion-tab .row .col {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.map-box .map-box-left .acordion-tab .row .col:last-child {
+  margin-left: 1em;
+}
+
+.map-box .map-box-left .acordion-tab .sub-tab {
+  background: #ff9e18 !important;
+}
+
+.map-box .map-box-left .acordion-tab .tabs {
+  overflow: hidden;
+}
+
+.map-box .map-box-left .acordion-tab .tab {
+  width: 100%;
+  color: white;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.map-box .map-box-left .acordion-tab .tab-label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1em;
+  background: #8a8787;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.map-box .map-box-left .acordion-tab .tab-label:hover {
+  background: #706e6e;
+}
+
+.map-box .map-box-left .acordion-tab .tab-label::after {
+  content: "\276F";
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  -webkit-transition: all .35s;
+  transition: all .35s;
+}
+
+.map-box .map-box-left .acordion-tab .tab-content {
+  max-height: 0;
+  padding: 0 1em;
+  color: #8a8787;
+  background: white;
+  -webkit-transition: all .35s;
+  transition: all .35s;
+}
+
+.map-box .map-box-left .acordion-tab input:checked + .tab-label::after {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.map-box .map-box-left .acordion-tab input:checked ~ .tab-content {
+  max-height: 100vh;
+  padding: 1em;
+}
+
+.map-box .map-box-right {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding-left: 3rem;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,4 @@
+﻿name,service_category_id,price,hours_id,gst_tax,tax_included,hsn_code,lead_before,lead_after
+Full Legs Scrub,Scrubs,1600,30,18,yes,FLS6785435,10,
+Full Arms Scrub,Scrubs,1400,30,18,yes,,,
+Pedicure,Pedicure & Manicure,1050,45,18,no,,10,10
